@@ -3,12 +3,16 @@ import neopixel
 import asyncio
 import websockets
 import json
+import signal
+import sys
+
 # LED setup
 num_pixels = 24
 pixels = neopixel.NeoPixel(board.D21, num_pixels, pixel_order=neopixel.RGB)
 
 # WebSocket connection
 websocket_connection = None
+shutdown_event = asyncio.Event()  # Event to handle shutdown
 
 async def connect(uri):
     """Establish the WebSocket connection."""
@@ -26,15 +30,15 @@ async def send_message(message):
         print("Connection not established. Cannot send message.")
         return
     try:
-                # Create the JSON object
+        # Create the JSON object
         json_payload = {
             "type": "wheel-active-led",
             "data": message  # The `message` variable you want to send
         }
-        
+
         # Convert the JSON object to a string
         json_string = json.dumps(json_payload)
-        
+
         await websocket_connection.send(json_string)  
     except Exception as e:
         print(f"Error sending message: {e}")
@@ -45,8 +49,11 @@ async def lighthouse_effect(wait):
     red_color = (255, 0, 0)
     blue_color = (0, 0, 255)
 
-    while True:
+    while not shutdown_event.is_set():
         for i in range(num_pixels):
+            if shutdown_event.is_set():
+                break
+
             # Set all LEDs to blue
             pixels.fill(blue_color)
 
@@ -67,12 +74,19 @@ async def main():
     await connect(uri)
 
     if websocket_connection:
-        # Send a test message
-        # await send_message("Lighthouse effect started")
+        await lighthouse_effect(0.15)  # 150ms delay for the animation
 
-        # Start the lighthouse effect
-        await lighthouse_effect(0.15)  # 100ms delay for the animation
+# Graceful shutdown handler
+def shutdown_handler(signal_received, frame):
+    print("Shutting down gracefully...")
+    shutdown_event.set()  # Signal tasks to stop
+    pixels.fill((0, 0, 0))  # Turn off LEDs
+    pixels.show()
+    sys.exit(0)  # Exit cleanly
+
+# Register signal handlers
+signal.signal(signal.SIGINT, shutdown_handler)  # Ctrl+C
+signal.signal(signal.SIGTERM, shutdown_handler)  # Kill command
 
 # Run the script
 asyncio.run(main())
-

@@ -79,20 +79,38 @@ module.exports = {
     in1: null,
     in2: null,
     en: null,
+    in3: null,
+    in4: null,
+    en2: null,
+    isPineappleWheelActive: false,
     init() {
         this.in1 = new Gpio(24, { mode: Gpio.OUTPUT })
         this.in2 = new Gpio(23, { mode: Gpio.OUTPUT })
         this.en = new Gpio(25, { mode: Gpio.OUTPUT })
 
+        this.in3 = new Gpio(27, { mode: Gpio.OUTPUT })
+        this.in4 = new Gpio(17, { mode: Gpio.OUTPUT })
+        this.en2 = new Gpio(22, { mode: Gpio.OUTPUT })
     },
     startPineappleWheel() {
-
+        this.isPineappleWheelActive = true;
         this.in1.digitalWrite(0);
         this.in2.digitalWrite(1);
         this.en.pwmWrite(255); // 25% duty cycle
     },
     stoptPineappleWheel() {
+        this.isPineappleWheelActive = false;
         this.in1.digitalWrite(0);
         this.in2.digitalWrite(0);
-    }
+    },
+    startPushingCoins() {
+        this.in3.digitalWrite(1);
+        this.in4.digitalWrite(0);
+        this.en2.pwmWrite(255); // 25% duty cycle
+    },
+    stopPushingCoins() {
+        this.in3.digitalWrite(0);
+        this.in4.digitalWrite(0);
+    },
+
 }

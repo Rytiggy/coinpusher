@@ -1,18 +1,33 @@
 const express = require('express');
 const WebSocket = require('ws');
-const sensors = require('./sensors.js')
+// const sensors = require('./sensors.js')
 // const moters = require("./moters.js")
 var cors = require('cors');
 const moters = require('./moters.js');
+const game = require('./game.js')
 
 const app = express();
 app.use(express.json());
 app.use(cors());
 const port = 3000;
 
+
 const wss = new WebSocket.Server({ port: 80 });
 
-let wheelLedsState = []
+
+function sendMessage(data, type) {
+    const stringData = JSON.stringify({ type, data })
+    wss.clients.forEach((client) => {
+        client.send(stringData);
+    });
+}
+
+
+
+
+
+const { setWheelState } = game.init(sendMessage)
+
 wss.on('connection', (ws) => {
     console.log("New connection");
 
@@ -21,37 +36,19 @@ wss.on('connection', (ws) => {
         const { data, type } = JSON.parse(message)
 
         if (type === 'wheel-active-led') {
-            wheelLedsState = JSON.parse(data);
+            setWheelState(JSON.parse(data))
         }
 
     });
 });
 
 
-const beamBroken = (sensor) => {
-    // console.log("break beam", sensor, typeof wheelLedsState, wheelLedsState)
-
-    const activeLed = wheelLedsState?.findIndex((leds, index) => {
-        if (leds[0] === 255) {
-            return index
-        }
-
-    })
-    console.log("activeLed", activeLed)
-
-
-}
-const sensorMap = [{
-    gpio: 4
-}]
-sensors.init(sensorMap, beamBroken)
 moters.init()
-console.log('WebSocket server is running on ws://localhost:80');
+
+
 
 app.post('/start-game', (req, res) => {
-    // console.log("Start Game", req.body)
-    // game.start(sendMessage, req.body?.data?.player)
-
+    game.start(sendMessage)
     moters.startPineappleWheel()
     res.send({ message: "Game started" })
 })
@@ -60,6 +57,7 @@ app.post('/reset-game', (req, res) => {
     console.log("reset Game", req.body)
     // game.reset(sendMessage)
     moters.stoptPineappleWheel()
+    moters.stopPushingCoins()
     res.send({ message: "Game reset" })
 })
 
