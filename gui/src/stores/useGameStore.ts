@@ -7,8 +7,9 @@ export type Game = {
   tickets: number
   tokens: number
   plays: number
-  bonusTokens: boolean
-  cardDrop: boolean
+  bonusTokens: number
+  cardDrop: number
+  messages: []
 }
 
 
@@ -21,25 +22,48 @@ export const useGameStore = defineStore('game', () => {
     tickets: 0,
     tokens: 0,
     plays: 0,
-    bonusTokens: false,
-    cardDrop: false
+    bonusTokens: 0,
+    cardDrop: 0,
+    messages: []
   })
+
+  const activeBonusToken = ref(0);
 
   const getGame = computed(() => {
     return game.value
   })
 
 
+  async function fetchGame() {
+    const response = await instance.get('/get-game')
+    console.log("fetchGame", response)
+    game.value = response.data.game
+  }
   function setGame(g: Game) {
-    console.log("setgame", g)
+    // console.log("setgame", g)
     game.value = g
   }
 
-  socket.addEventListener("message", (event: { data: string }) => {
+  socket.addEventListener("message", (event: { data: any, type: string }) => {
     const response = JSON.parse(event.data)
-    const game = response.data;
-    setGame(game)
+    console.log("response", response)
+    if (response.type === 'bonus-tokens') {
+      activeBonusToken.value = response.data.bonusIndex
+      console.log("reso", response.data.bonusIndex)
+
+    } else {
+      const { game } = response.data;
+      setGame(game)
+    }
   });
+
+
+  async function fixJam() {
+    const response = await instance.get('/fix-jam')
+  }
+
+
+
 
   // const topScore = ref({
   //   today: 0,
@@ -115,5 +139,5 @@ export const useGameStore = defineStore('game', () => {
 
 
 
-  return { getGame, game }
+  return { fetchGame, getGame, game, activeBonusToken }
 })

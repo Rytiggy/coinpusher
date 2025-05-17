@@ -1,321 +1,364 @@
-const moters = require('./moters.js');
-const sensors = require('./sensors.js')
+
 const path = require('path');
-const { exec } = require("child_process");
+
+module.exports = function (sendMessage) {
+  const backgroundSound = path.resolve(__dirname, 'sounds/background.wav');
+  const backgroundSoundPlayer = require('./sounds/index.js')(backgroundSound)
+
+  let tokens = 0;
+  let plays = 100;
+  let tickets = 0;
+  let bonusTokens = 0;
+  let cardDrop = 0;
+  let messages = []
+  let currentWheelIndex = 0
+  const addMessage = (msg) => {
+    messages.push(msg)
+  }
+
+  // Timeouts
+  let clearJamCoinDispenserTimeout = null;
+  let clearPineappleWheelTimeout = null;
+  let pineappleTimeoutTimeStarted = null
+  function setPineappleTimeout(timeout = 8000) {
+    clearTimeout(clearPineappleWheelTimeout)
+    pineappleTimeoutTimeStarted = null
+    // pineappleTimeoutTimeStarted = new date().now()
+    clearPineappleWheelTimeout = setTimeout(() => {
+      pineappleWheel.stop()
+      backgroundSoundPlayer.stop()
+    }, timeout)
+  }
+
+  const wheelBreakBeamSound = path.resolve(__dirname, 'sounds/coin_wheel.wav');
+  const wheelCoinEvent = () => {
+    console.log('wheelCoinEvent', currentWheelIndex)
+    mapIndexToWheelBonus(currentWheelIndex)
+  }
+  const pineappleWheel = require('./dispenser.js')(24, 23, 25, 4, wheelBreakBeamSound, wheelCoinEvent);
+
+  const countTicketsBreakBeamSound = path.resolve(__dirname, 'sounds/count_tickets.wav');
+  const countTicketEvent = () => {
+    const game = getGame()
+    tickets = game.tickets + 1;
+    console.log('countTicketEvent', tickets)
+    // setPineappleTimeout(10000)
+  }
+  require('./breakBeam.js')(5, countTicketsBreakBeamSound, countTicketEvent);
+  // Init Count tickets break beam 
+
+  const coinDispenseEvent = () => {
+    console.log("Coin dispensed")
+    clearTimeout(clearJamCoinDispenserTimeout)
+    clearJamCoinDispenserTimeout = null
+    plays = plays - 1;
+    coinDispensor.stop()
+  }
+  const coinDispensor = require('./dispenser.js')(17, 27, 22, 13, path.resolve(__dirname, 'sounds/coin_dispensed.wav'), coinDispenseEvent)
+
+  const tokenDispenseEvent = () => {
+    console.log("tokens left", tokens)
+    tokens--
+    // setPineappleTimeout(10000)
+
+    if (tokens === 0) {
+      tokenDispensor.stop()
+    }
+  }
+  const tokenDispensor = require('./dispenser.js')(20, 19, 26, 18, path.resolve(__dirname, 'sounds/token_count.wav'), tokenDispenseEvent)
+
+  const playButtonPressed = () => {
+    play()
+  }
+
+  require('./button.js')(6, playButtonPressed)
+  // NOTE: the leds need to be initialized last
+  const leds = require('./leds.js');
 
 
+  function start() {
+    backgroundSoundPlayer.playSound()
+    const ledChangedEvent = (index) => {
+      currentWheelIndex = index;
+    }
+    leds.init(ledChangedEvent)
+    pineappleWheel.start()
+    clearPineappleWheelTimeout = setTimeout(() => {
+      pineappleWheel.stop()
+      backgroundSoundPlayer.stop()
+    }, 25000)
+  }
 
-let pusherClearTimeout = null;
 
-module.exports = {
-  plays: 999,
-  tokens: 0,
-  tickets: 0, // 1 coin === 1 ticket TODO: i need to impliment logic and harware to count coins
-  bonusTokens: false,
-  cardDrop: false,
-  wheelLedsState: [],
-  init(sendMessage) {
-    const beamBroken = (level, sensor) => {
-      // console.log("beam broken callback", level, sensor)
-      // Wheel coin break beam sensor
-      if (sensor.gpio === 4) {
-        if (level === 0) {
-          const activeLed = this.wheelLedsState?.findIndex((leds, index) => {
-            if (leds[0] === 255) {
-              return index
-            }
-          })
-          sendMessage(this.mapIndexToWheelBonus(activeLed), 'beam-broke-wheel')
-        }
-      }
-      // Coin dispenser break beam sensor
-      else if (sensor.gpio === 13) {
-        if (pusherClearTimeout)
-          clearTimeout(pusherClearTimeout)
+  function play() {
 
-        if (!moters.isPineappleWheelActive)
-          moters.startPineappleWheel()
-
-        // If no activity happens then lets turn stuff off
-        pusherClearTimeout = setTimeout(() => {
-          moters.stoptPineappleWheel()
-          moters.stopPushingCoins()
-        }, 15000) // 15 seconds 
-
+    const game = getGame()
+    console.log("play", game)
+    if (game.plays > 0) {
+      pineappleWheel.start()
+      console.log("clearPineappleWheelTimeout", clearPineappleWheelTimeout, backgroundSoundPlayer.getStatus().isStopped)
+      if (!clearPineappleWheelTimeout && backgroundSoundPlayer.getStatus().isStopped)
+        backgroundSoundPlayer.playSound(backgroundSound)
+      clearPineappleWheelTimeout = setTimeout(() => {
+        pineappleWheel.stop()
+        backgroundSoundPlayer.stop()
+      }, 25000)
+      coinDispensor.start()
+      clearTimeout(clearJamCoinDispenserTimeout)
+      clearTimeout(clearPineappleWheelTimeout)
+      clearPineappleWheelTimeout = null
+      clearJamCoinDispenserTimeout = null
+      // if a coin doesn't come out in 3 seconds then lets reverse the dispenser stop stuff
+      clearJamCoinDispenserTimeout = setTimeout(() => {
+        addMessage("Jam detected D: im going to reverse <---")
+        coinDispensor.reverse()
         setTimeout(() => {
-          moters.stopPushingCoins()
-        }, 600);
-
-        this.plays = (this.plays - 1)
-        sendMessage(this.getGame(), 'beam-broke-coin-dispenser')
-
-        const file = path.resolve(__dirname, 'coin_dispensed.mp3');
-
-        exec(`cvlc --play-and-exit -A alsa --alsa-audio-device sysdefault:CARD=Headphones ${file}`, (error, stdout, stderr) => {
-          if (error) {
-            console.error(`Error playing sound: ${error.message}`);
-            return;
-          }
-          if (stderr) console.error(`stderr: ${stderr}`);
-          if (stdout) console.log(`stdout: ${stdout}`);
-        });
-
-      }
-
+          addMessage("Please push play button again")
+          coinDispensor.stop()
+        }, 1000)
+      }, 3000)
+    } else {
+      addMessage("No plays left")
+      console.log("No plays left")
     }
-    const sensorMap = [
-      {
-        gpio: 4
-      },
-      {
-        gpio: 13
-      },
-
-    ]
-    sensors.setupBreakBeamSensors(sensorMap, beamBroken)
+  }
 
 
 
-    const dispenseCoin = () => {
-      console.log("dispenseCoin Plays left", this.plays, this.getGame())
-      if (this.plays > 0) {
-        moters.startPushingCoins();
-      }
-      else {
-        console.log("No plays - insert credits")
-      }
+  const gameInterval = setInterval(() => {
+    const game = getGame()
 
+    if (game.tokens > 0) {
+      tokenDispensor.start()
     }
 
-    const buttonEvent = (level) => {
-      console.log("buttonEvent", level)
-      if (level === 0) {
-        dispenseCoin()
-      }
+    if (game.bonusTokens > 0) {
+      const game = getGame()
+      bonusTokens = game.bonusTokens - 1;
+      const bonusOptions = [5, 10, 5, 20, 5, 10, 5]
+      const bonusIndex = Math.floor(Math.random() * 6);
 
+      tokens = game.tokens + bonusOptions[bonusIndex]
+      console.log("Bonus tokens added", bonusOptions[bonusIndex], tokens)
+      sendMessage({ game, bonusIndex }, 'bonus-tokens')
     }
-    sensors.setupButton(6, buttonEvent)
+
+    sendMessage({ game }, 'game-update')
 
 
-    const setWheelState = (wheelSate) => {
-      this.wheelLedsState = wheelSate
+    // console.log("game", game)
+  }, 500)
 
-    }
-    return { setWheelState }
-  },
-  isActive() {
-    return this.plays > 0
-  },
-  getGame() {
+
+  function getGame() {
     return {
-      isActive: this.isActive(),
-      plays: this.plays,
-      tokens: this.tokens,
-      tickets: this.tickets,
-      bonusTokens: this.bonusTokens,
-      cardDrop: this.cardDrop,
+      tokens,
+      plays,
+      tickets,
+      bonusTokens,
+      cardDrop,
+      messages,
+      // endsAt: getTimeLeft(clearPineappleWheelTimeout) // TODO: add how long the game will stay active for
     }
-  },
+  }
 
-  start() {
-    if (this.isActive()) {
-      return
-    }
-    this.plays += 10
-    moters.startPineappleWheel()
-  },
-  stop() {
-    moters.stoptPineappleWheel()
-  },
-  mapIndexToWheelBonus(ledIndex) {
-    // 24
+  function mapIndexToWheelBonus(ledIndex) {
+    // 24 leds
     const wheelBonusMap = [
       {
         index: -1,
         plays: 0,
         tokens: 0,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {// Starts 1 index back from the top 
         index: 1,
         plays: 0,
         tokens: 2,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 2,
         plays: 0,
         tokens: 0,
-        bonusTokens: true,
-        cardDrop: false
+        bonusTokens: 1,
+        cardDrop: 0
       },
       {
         index: 3,
         plays: 0,
         tokens: 2,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 4,
         plays: 0,
         tokens: 3,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 5,
         plays: 0,
         tokens: 2,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 6,
         plays: 2,
         tokens: 0,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 7,
         plays: 0,
         tokens: 2,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 8,
         plays: 0,
         tokens: 3,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 9,
         plays: 0,
         tokens: 2,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 10,
         plays: 0,
         tokens: 0,
-        bonusTokens: true,
-        cardDrop: false
+        bonusTokens: 1,
+        cardDrop: 0
       },
       {
         index: 11,
         plays: 0,
         tokens: 2,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 12,
         plays: 0,
         tokens: 3,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 13,
         plays: 0,
         tokens: 2,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 14,
         plays: 0,
         tokens: 0,
-        bonusTokens: false,
-        cardDrop: true
+        bonusTokens: 0,
+        cardDrop: 1
       },
       {
         index: 15,
         plays: 0,
         tokens: 2,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 16,
         plays: 0,
         tokens: 3,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 17,
         plays: 0,
         tokens: 2,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 18,
         plays: 0,
         tokens: 0,
-        bonusTokens: true,
-        cardDrop: false
+        bonusTokens: 1,
+        cardDrop: 0
       }, {
         index: 19,
         plays: 0,
         tokens: 2,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 20,
         plays: 0,
         tokens: 3,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 21,
         plays: 0,
         tokens: 2,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 22,
         plays: 2,
         tokens: 0,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 23,
         plays: 0,
         tokens: 2,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
       {
         index: 24,
         plays: 0,
         tokens: 3,
-        bonusTokens: false,
-        cardDrop: false
+        bonusTokens: 0,
+        cardDrop: 0
       },
     ]
     const wheelBonus = wheelBonusMap.find(bonus =>
       bonus.index == ledIndex
     )
-    console.log("mapIndexToWheelBonus: wheelBonus", wheelBonus)
-
-    this.plays += wheelBonus?.plays
-    this.tokens += wheelBonus?.tokens
-    this.bonusTokens = wheelBonus?.bonusTokens
-    this.cardDrop = wheelBonus?.cardDrop
-    return this.getGame()
+    // addMessage(`Wheel Bonus ${JSON.stringify(wheelBonus)} ${ledIndex}`)
+    if (wheelBonus?.plays)
+      plays = plays + wheelBonus?.plays
+    if (wheelBonus?.tokens)
+      tokens = tokens + wheelBonus?.tokens
+    if (wheelBonus?.bonusTokens)
+      bonusTokens = bonusTokens + wheelBonus?.bonusTokens
+    if (wheelBonus?.cardDrop)
+      cardDrop = cardDrop + wheelBonus?.cardDrop
+    return getGame()
   }
 
+  return { start, getGame }
 }
 
+function getTimeLeft(timeout) {
+  if (timeout)
+    return Math.ceil((timeout._idleStart + timeout._idleTimeout - Date.now()) / 1000);
+}
