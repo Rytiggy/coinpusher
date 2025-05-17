@@ -7,6 +7,7 @@ import { useApi } from '@/composables/useApi.ts'
 import { computed, onMounted, ref } from 'vue';
 // const coinDispenser = ref()
 const gameStore = useGameStore()
+gameStore.fetchGame()
 // const { instance, socket } = useApi()
 
 // socket.addEventListener("message", (event: { data: string }) => {
