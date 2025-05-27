@@ -1,0 +1,154 @@
+@import url('https://fonts.cdnfonts.com/css/spongebob-font-condensed');
+
+.full-width {
+    width: 100%;
+}
+
+.full-height {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'SpongeBob Font Condensed', sans-serif ;
+    color: white;
+}
+
+.text {
+    /* font-family: "Lucida Console", "Courier New", monospace */
+    font-size: 12px;
+}
+
+#app {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.grid {
+    display: grid;
+    
+}
+
+.flex {
+    display: flex;
+}
+.absolute-bottom {
+    position:absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+
+.align-bottom {
+    align-items: end;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.gap-1 {
+    gap: 1em;
+}
+
+.gap-2 {
+    gap: 2em;
+}
+
+.gap-3 {
+    gap: 3em;
+}
+.item {
+    background: rgba( 0, 0, 0, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+}
+
+
+.pa-md {
+    padding: 10px
+}
+
+.text-small {
+    font-size: 12px;
+}
+
+/* text */
+.text-center {
+    text-align: center;
+}
+
+h1 {
+    margin: .3em;
+    line-height: 1em;
+    /* backdrop-filter: blur(0px); */
+
+}
+
+h2 {
+    margin: .15em;
+    line-height: 1em;
+    /* backdrop-filter: blur(0px); */
+}
+
+h3 {
+   backdrop-filter: blur(0px);
+}
+
+.blur {
+    backdrop-filter: blur(0px);
+}
+
+.text-grey {
+    color: #e8e8e8
+}
+
+.text-red {
+    color: #d63a3a;
+    text-shadow: 1px 1px 2px black;
+}
+.text-orange {
+    color: rgb(255, 191, 0);
+    text-shadow: 1px 1px 2px black;
+}
+
+
+.text-fun {
+ color: #2977FF; 
+ /* background-image: linear-gradient(0deg, #2977FF 32%, #FFFFFF 59%);  */
+ /* background-clip: text;  */
+ /* -webkit-background-clip: text; 
+ -webkit-text-fill-color: transparent;  */
+ -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  font-size: 60px;  
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #fff,
+    0 0 82px #fff,
+    0 0 92px #fff,
+    0 0 102px #fff,
+    0 0 151px #fff;
+
+}
+
+
+.page {
+    padding: 25px;
+}
+
+

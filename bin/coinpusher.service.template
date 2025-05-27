@@ -1,0 +1,17 @@
+[Unit]
+Description=Coinpusher Node.js Application
+After=network.target
+
+[Service]
+Type=simple
+User=ryan
+WorkingDirectory=/home/ryan/Documents/git/coinpusher/bin
+ExecStart=/bin/bash /home/ryan/Documents/git/coinpusher/bin/start.sh
+Environment="DISPLAY=:0"
+Environment="XAUTHORITY=/home/ryan/.Xauthority"
+StandardOutput=append:/var/log/coinpusher.log
+StandardError=append:/var/log/coinpusher.err
+
+[Install]
+WantedBy=multi-user.target
+
