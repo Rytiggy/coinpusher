@@ -19,7 +19,6 @@ onMounted(() => {
     <h1>Play Cards</h1>
     <div class="card-grid">
       <PlayerCard v-for="card in getCards" :key="card.id" :card="card" />
-      <CreateNewPlayCard />
     </div>
   </div>
 </template>

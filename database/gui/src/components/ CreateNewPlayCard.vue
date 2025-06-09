@@ -43,7 +43,7 @@ async function validateUid() {
   <div class="card">
     <h2>New Card</h2>
 
-    <div class="gap-1 grid text-left">
+    <div class="gap-1  text-left">
       <div v-if="!didScanNewCard" class="gap-1 grid">
         <div>Enter Player Name</div>
         <input v-model="card.player" />

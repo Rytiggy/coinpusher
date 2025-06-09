@@ -9,8 +9,9 @@ module.exports = function () {
   });
 
   const { User } = require('./user.js')(sequelize);
+  const { Game } = require('./game.js')(sequelize);
 
-  const models = { User }
+  const models = { User, Game }
   // Sync models with database
   sequelize.sync();
 
@@ -55,6 +56,16 @@ module.exports = function () {
     }
   }
 
+  async function getAllByKey(model, key, value) {
+    console.log("getByKey", model, key, value)
+    try {
+      return await model.findAll({ where: { [key]: value } });
+    } catch (e) {
+      console.error("Error fetching data by key:", e);
+      return null
+    }
+  }
+
 
 
   return {
@@ -63,7 +74,8 @@ module.exports = function () {
     read,
     deleteByKey,
     update,
-    getByKey
+    getByKey,
+    getAllByKey
   }
 }
 

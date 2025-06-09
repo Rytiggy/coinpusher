@@ -19,6 +19,7 @@ module.exports = function (sendMessage) {
   let player = "Player"
   let card = null;
   let messages = []
+  let gameId = null
   let currentWheelIndex = 0
   // This is a count of how many times the user has scanned their card without hitting the play button
   let userScannedCount = 0;
@@ -32,7 +33,6 @@ module.exports = function (sendMessage) {
   }
 
   // Timeouts
-  // let clearJamCoinDispenserTimeout = null;
   let clearPineappleWheelTimeout = null;
   let pineappleTimeoutTimeStarted = 0
 
@@ -75,21 +75,21 @@ module.exports = function (sendMessage) {
         updatePlayCard(card.uid, { tickets: res.data.tickets + 3 })
       }
     })
+
     tickets = tickets + 3
+    const updatedGameData = { type: "coinpusher", playerId: card.id, score: getGame().tickets, ...getGame() }
+    console.log("updateGame", updatedGameData, gameId)
+    if (gameId)
+      auth.updateGame(gameId, updatedGameData)
+
     setPineappleTimeout()
   }
   require('./breakBeam.js')(5, countTicketsBreakBeamSound, countTicketEvent);
   // Init Count tickets break beam 
-
   const coinDispenseEvent = () => {
     console.log("Coin dispensed")
-    // clearTimeout(clearJamCoinDispenserTimeout)
-    // clearJamCoinDispenserTimeout = null
     plays = plays - 1;
-    setTimeout(() => {
-      coinDispensor.stop()
-    }, 450)
-
+    coinDispensor.stop()
     addMessage("Coin dispensed")
   }
   const coinDispensor = require('./dispenser.js')(17, 27, 22, 13, path.resolve(__dirname, 'sounds/coin_dispensed.wav'), coinDispenseEvent, addMessage, false, "Coin Dispenser")
@@ -119,9 +119,6 @@ module.exports = function (sendMessage) {
       currentWheelIndex = index;
     }
     leds.init(ledChangedEvent)
-    // backgroundSoundPlayer.playSound()
-    // pineappleWheel.start()
-    // setPineappleTimeout()
   }
 
 
@@ -138,21 +135,16 @@ module.exports = function (sendMessage) {
       if (game.tokens > 0) {
         tokenDispensor.start()
       }
-      console.log("clearPineappleWheelTimeout", backgroundSoundPlayer.getStatus().isPaused, backgroundSoundPlayer.getStatus().isStopped)
       if (backgroundSoundPlayer.getStatus().isStopped || backgroundSoundPlayer.getStatus().isPaused)
         backgroundSoundPlayer.playSound(backgroundSound)
       setPineappleTimeout()
+
       coinDispensor.start()
 
-      // // if a coin doesn't come out in 3 seconds then lets reverse the dispenser stop stuff
-      // clearJamCoinDispenserTimeout = setTimeout(() => {
-      //   addMessage("Jam detected D: im going to reverse <---", 'error')
-      //   coinDispensor.reverse()
-      //   setTimeout(() => {
-      //     addMessage("Please push play button again")
-      //     coinDispensor.stop()
-      //   }, 1000)
-      // }, 3000)
+      const updatedGameData = { type: "spongebob-coinpusher", playerId: card.id, score: getGame().tickets, ...getGame() }
+      console.log("updateGame", updatedGameData, gameId)
+      auth.updateGame(gameId, updatedGameData)
+
     } else {
       addMessage("No plays left", "warning")
       console.log("No plays left :( sry")
@@ -179,9 +171,7 @@ module.exports = function (sendMessage) {
       console.log("Bonus tokens added", bonusOptions[bonusIndex], tokens)
       sendMessage({ game, bonusIndex }, 'bonus-tokens')
     }
-
     sendMessage({ game }, 'game-update')
-
 
   }, 500)
 
@@ -444,15 +434,23 @@ module.exports = function (sendMessage) {
       sendMessage({ card: c }, 'card-scan')
       let playsToAdd = getPlayMultipler()
 
-      if (card && card.uid !== c.uid) {
+      if (!card || (card && card.uid !== c.uid)) {
         tickets = 0
         plays = 0
         tokens = 0
         bonusTokens = 0
         cardDrop = 0
+        gameId = null
         messages = []
+        player = c.player
         sendMessage({ game: getGame() }, 'player-change')
+
+        auth.createGame({ type: "coinpusher", playerId: c.id, score: getGame().tickets, attributes: getGame() }).then((res) => {
+          console.log("Game created", res)
+          gameId = res.id
+        })
       }
+
       // Update the player name for the game
       player = c.player
       card = c
@@ -468,7 +466,8 @@ module.exports = function (sendMessage) {
   }
   const auth = require('./auth.js')(3, scan, errorReadingCard)
 
-  return { start, getGame, addPlays }
+
+  return { start, getGame, addPlays, tokenDispensor, coinDispensor, pineappleWheel }
 }
 
 

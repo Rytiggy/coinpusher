@@ -46,17 +46,20 @@ body {
   background-color: #111;
   color: var(--white);
   margin: 0;
-  overflow: hidden;
   font-family: "Press Start 2P";
 }
 
 h2 {
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /* padding-left: 0px;
+  padding-right: 0px; */
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
 }
 
+p {
+  padding: 0;
+  margin: 0;
+}
 .text-white {
   color: var(--white);
 }
@@ -111,7 +114,6 @@ h2 {
   font-size: 13px;
   color: #888;
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
-  margin-top: -15px;
   display: block;
 }
 
@@ -157,6 +159,9 @@ h2 {
   display: flex;
 }
 
+.flex-grow-1 {
+  flex-grow: 1;
+}
 .space-between {
   justify-content: space-between;
 }
@@ -173,9 +178,15 @@ h2 {
   align-items: center;
 }
 
+.align-content-center {
+  align-content: center;
+}
+
 .justify-content-center {
   justify-content: center;
 }
+
+
 
 .gap-1 {
   gap: 1em;
@@ -192,12 +203,20 @@ h2 {
   margin-top: 4em;
 }
 
+.pa-md {
+  padding: 2em
+}
+
 .text-center {
   text-align: center;
 }
 
 .text-left {
   text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .input-wrapper {
@@ -303,4 +322,9 @@ li {
 
 .card:hover {
   transform: scale(1.05);
+}
+
+.gutter-y-sm {
+  column-gap: .5em;
+  row-gap: .5em
 }

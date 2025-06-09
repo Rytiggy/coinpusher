@@ -7,23 +7,24 @@ module.exports = function (start = () => { }, reverse = () => { }, stop = () => 
     function startMotor() {
         clearJamTimeout()
         console.log("starMotors called")
-        if (attempts >= maxAttempts) {
-            console.log(`Max attempts, ${callerName} Out of coins or jammed`, 'error')
-            addMessage(`Max attempts, ${callerName} Out of coins or jammed`, 'error')
-            stop()
-            return
-        }
+        // if (attempts >= maxAttempts) {
+        //     console.log(`Max attempts, ${callerName} Out of coins or jammed`, 'error')
+        //     addMessage(`Max attempts, ${callerName} Out of coins or jammed`, 'error')
+        //     stop()
+        //     return
+        // }
         start()
         // stop motor after some time if no event has happened 
         timeout = setTimeout(() => {
-            addMessage(`Jam / no coins in ${callerName}`, 'error')
-            reverse()
+            // reverse()
             attempts = attempts + 1
-            timeoutStop = setTimeout(() => {
-                addMessage("press play again, If problem continues call for help.")
-                stop()
-            }, 1700)
-        }, 2000);
+            addMessage(`Jam / no coins in ${callerName} attempt #${attempts}`, 'error')
+
+            // timeoutStop = setTimeout(() => {
+            // addMessage("press play again, If problem continues call for help.")
+            stop()
+            // }, 1500)
+        }, 1500);
     }
 
     function clearJamTimeout(shouldClearAttemps = false) {

@@ -365,10 +365,30 @@ module.exports = function (numberOfChipsToPlay = 3, callback = () => { }, errorC
       console.log("updatePlayCard error", e)
     }
   }
+  async function createGame(game) {
+    console.log("createGame", game)
+    try {
+      const response = await axios.post(`http://192.168.3.21:3001/games`, game);
+      return response.data
+    } catch (e) {
+      console.log("saveGame error", e)
+    }
+  }
+  async function updateGame(id, game) {
+    try {
+      const response = await axios.patch(`http://192.168.3.21:3001/games/${id}`, game);
+      return response.data
+    } catch (e) {
+      console.log("updateGame error", e)
+    }
+  }
+
 
   return {
     updatePlayCard,
-    getPlayCard
+    getPlayCard,
+    createGame,
+    updateGame
   }
 }
 

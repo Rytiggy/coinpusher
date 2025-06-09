@@ -1,0 +1,1085 @@
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 4309 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2298 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 4832 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2443 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 3237 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2402 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2688 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 13130 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+17:54:57 [vite] vite.config.ts changed, restarting server...
+17:54:57 [vite] server restarted.
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2938 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2180 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+18:00:31 [vite] (client) hmr update /src/views/HomeView.vue, /src/components/PlayerCard.vue, /src/components/ CreateNewPlayCard.vue
+18:00:36 [vite] (client) hmr update /src/views/HomeView.vue, /src/components/PlayerCard.vue, /src/components/ CreateNewPlayCard.vue
+18:00:52 [vite] (client) hmr update /src/views/HomeView.vue, /src/components/PlayerCard.vue, /src/components/ CreateNewPlayCard.vue
+18:01:32 [vite] (client) hmr update /src/views/HomeView.vue, /src/components/PlayerCard.vue, /src/components/ CreateNewPlayCard.vue
+18:04:16 [vite] (client) hmr update /src/views/HomeView.vue, /src/components/PlayerCard.vue, /src/components/ CreateNewPlayCard.vue
+18:04:16 [vite] (client) Pre-transform error: Transform failed with 1 error:
+/home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:18:37: ERROR: Expected ";" but found "=>"
+  Plugin: vite:esbuild
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:18:37
+  
+  Expected ";" but found "=>"
+  16 |    const error = ref<string | null>(null)
+  17 |  
+  18 |    const getUsersCard = computed(uid) => {
+     |                                       ^
+  19 |    return cards.value.find(card => card.uid === uid)
+  20 |  })
+  
+18:04:16 [vite] (client) Pre-transform error: Transform failed with 1 error:
+/home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:18:37: ERROR: Expected ";" but found "=>"
+  Plugin: vite:esbuild
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:18:37
+  
+  Expected ";" but found "=>"
+  16 |    const error = ref<string | null>(null)
+  17 |  
+  18 |    const getUsersCard = computed(uid) => {
+     |                                       ^
+  19 |    return cards.value.find(card => card.uid === uid)
+  20 |  })
+  
+18:04:16 [vite] Internal server error: Transform failed with 1 error:
+/home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:18:37: ERROR: Expected ";" but found "=>"
+  Plugin: vite:esbuild
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:18:37
+  
+  Expected ";" but found "=>"
+  16 |    const error = ref<string | null>(null)
+  17 |  
+  18 |    const getUsersCard = computed(uid) => {
+     |                                       ^
+  19 |    return cards.value.find(card => card.uid === uid)
+  20 |  })
+  
+      at failureErrorWithLog (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/esbuild/lib/main.js:1463:15)
+      at /home/ryan/Documents/git/coinpusher/database/gui/node_modules/esbuild/lib/main.js:734:50
+      at responseCallbacks.<computed> (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/esbuild/lib/main.js:601:9)
+      at handleIncomingPacket (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/esbuild/lib/main.js:656:12)
+      at Socket.readFromStdout (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/esbuild/lib/main.js:579:7)
+      at Socket.emit (node:events:507:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+18:04:16 [vite] (client) Pre-transform error: Transform failed with 1 error:
+/home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:18:37: ERROR: Expected ";" but found "=>"
+  Plugin: vite:esbuild
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:18:37
+  
+  Expected ";" but found "=>"
+  16 |    const error = ref<string | null>(null)
+  17 |  
+  18 |    const getUsersCard = computed(uid) => {
+     |                                       ^
+  19 |    return cards.value.find(card => card.uid === uid)
+  20 |  })
+  
+18:04:27 [vite] (client) hmr update /src/views/HomeView.vue, /src/components/PlayerCard.vue, /src/components/ CreateNewPlayCard.vue
+18:04:27 [vite] (client) Pre-transform error: Transform failed with 1 error:
+/home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:18:35: ERROR: Expected ")" but found ":"
+  Plugin: vite:esbuild
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:18:35
+  
+  Expected ")" but found ":"
+  16 |    const error = ref<string | null>(null)
+  17 |  
+  18 |    const getUsersCard = computed(uid: string) => {
+     |                                     ^
+  19 |    return cards?.value?.find(card => card.uid === uid)
+  20 |  })
+  
+18:04:27 [vite] (client) Pre-transform error: Transform failed with 1 error:
+/home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:18:35: ERROR: Expected ")" but found ":"
+  Plugin: vite:esbuild
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:18:35
+  
+  Expected ")" but found ":"
+  16 |    const error = ref<string | null>(null)
+  17 |  
+  18 |    const getUsersCard = computed(uid: string) => {
+     |                                     ^
+  19 |    return cards?.value?.find(card => card.uid === uid)
+  20 |  })
+  
+18:04:27 [vite] Internal server error: Transform failed with 1 error:
+/home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:18:35: ERROR: Expected ")" but found ":"
+  Plugin: vite:esbuild
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:18:35
+  
+  Expected ")" but found ":"
+  16 |    const error = ref<string | null>(null)
+  17 |  
+  18 |    const getUsersCard = computed(uid: string) => {
+     |                                     ^
+  19 |    return cards?.value?.find(card => card.uid === uid)
+  20 |  })
+  
+      at failureErrorWithLog (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/esbuild/lib/main.js:1463:15)
+      at /home/ryan/Documents/git/coinpusher/database/gui/node_modules/esbuild/lib/main.js:734:50
+      at responseCallbacks.<computed> (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/esbuild/lib/main.js:601:9)
+      at handleIncomingPacket (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/esbuild/lib/main.js:656:12)
+      at Socket.readFromStdout (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/esbuild/lib/main.js:579:7)
+      at Socket.emit (node:events:507:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+18:04:27 [vite] (client) Pre-transform error: Transform failed with 1 error:
+/home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:18:35: ERROR: Expected ")" but found ":"
+  Plugin: vite:esbuild
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:18:35
+  
+  Expected ")" but found ":"
+  16 |    const error = ref<string | null>(null)
+  17 |  
+  18 |    const getUsersCard = computed(uid: string) => {
+     |                                     ^
+  19 |    return cards?.value?.find(card => card.uid === uid)
+  20 |  })
+  
+18:04:39 [vite] (client) hmr update /src/views/HomeView.vue, /src/components/PlayerCard.vue, /src/components/ CreateNewPlayCard.vue
+18:04:44 [vite] (client) hmr update /src/views/HomeView.vue, /src/components/PlayerCard.vue, /src/components/ CreateNewPlayCard.vue
+18:04:47 [vite] (client) hmr update /src/views/HomeView.vue, /src/components/PlayerCard.vue, /src/components/ CreateNewPlayCard.vue
+18:04:56 [vite] (client) hmr update /src/views/HomeView.vue, /src/components/PlayerCard.vue, /src/components/ CreateNewPlayCard.vue
+18:04:56 [vite] (client) Pre-transform error: Transform failed with 1 error:
+/home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:19:51: ERROR: Unexpected ")"
+  Plugin: vite:esbuild
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:19:51
+  
+  Unexpected ")"
+  17 |  
+  18 |    const getUsersCard = (() => {
+  19 |      return cards?.value?.find(card => card.uid === )
+     |                                                     ^
+  20 |    })
+  21 |    async function fetchCards() {
+  
+18:04:56 [vite] (client) Pre-transform error: Transform failed with 1 error:
+/home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:19:51: ERROR: Unexpected ")"
+  Plugin: vite:esbuild
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:19:51
+  
+  Unexpected ")"
+  17 |  
+  18 |    const getUsersCard = (() => {
+  19 |      return cards?.value?.find(card => card.uid === )
+     |                                                     ^
+  20 |    })
+  21 |    async function fetchCards() {
+  
+18:04:56 [vite] Internal server error: Transform failed with 1 error:
+/home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:19:51: ERROR: Unexpected ")"
+  Plugin: vite:esbuild
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:19:51
+  
+  Unexpected ")"
+  17 |  
+  18 |    const getUsersCard = (() => {
+  19 |      return cards?.value?.find(card => card.uid === )
+     |                                                     ^
+  20 |    })
+  21 |    async function fetchCards() {
+  
+      at failureErrorWithLog (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/esbuild/lib/main.js:1463:15)
+      at /home/ryan/Documents/git/coinpusher/database/gui/node_modules/esbuild/lib/main.js:734:50
+      at responseCallbacks.<computed> (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/esbuild/lib/main.js:601:9)
+      at handleIncomingPacket (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/esbuild/lib/main.js:656:12)
+      at Socket.readFromStdout (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/esbuild/lib/main.js:579:7)
+      at Socket.emit (node:events:507:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+18:04:56 [vite] (client) Pre-transform error: Transform failed with 1 error:
+/home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:19:51: ERROR: Unexpected ")"
+  Plugin: vite:esbuild
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/stores/playCard.ts:19:51
+  
+  Unexpected ")"
+  17 |  
+  18 |    const getUsersCard = (() => {
+  19 |      return cards?.value?.find(card => card.uid === )
+     |                                                     ^
+  20 |    })
+  21 |    async function fetchCards() {
+  
+18:05:01 [vite] (client) hmr update /src/views/HomeView.vue, /src/components/PlayerCard.vue, /src/components/ CreateNewPlayCard.vue
+18:05:04 [vite] (client) hmr update /src/views/HomeView.vue, /src/components/PlayerCard.vue, /src/components/ CreateNewPlayCard.vue
+18:05:06 [vite] (client) hmr update /src/views/HomeView.vue, /src/components/PlayerCard.vue, /src/components/ CreateNewPlayCard.vue
+18:05:10 [vite] (client) hmr update /src/views/HomeView.vue, /src/components/PlayerCard.vue, /src/components/ CreateNewPlayCard.vue
+18:07:59 [vite] (client) hmr update /src/App.vue
+18:08:23 [vite] (client) hmr update /src/App.vue
+18:08:24 [vite] (client) ✨ new dependencies optimized: vue-router
+18:08:24 [vite] (client) ✨ optimized dependencies changed. reloading
+18:08:55 [vite] (client) page reload src/main.ts
+18:08:57 [vite] Pre-transform error: Failed to resolve import "./assets/main.css" from "src/main.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/main.ts:5:7
+  1  |  import "./style.css";
+  2  |  import "./assets/main.css";
+     |          ^
+  3  |  import { createApp } from "vue";
+  4  |  import { createPinia } from "pinia";
+18:08:57 [vite] Internal server error: Failed to resolve import "./assets/main.css" from "src/main.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/main.ts:5:7
+  1  |  import "./style.css";
+  2  |  import "./assets/main.css";
+     |          ^
+  3  |  import { createApp } from "vue";
+  4  |  import { createPinia } from "pinia";
+      at TransformPluginContext._formatLog (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+18:09:02 [vite] (client) page reload src/main.ts
+18:09:03 [vite] Pre-transform error: Failed to resolve import "./assets/main.css" from "src/main.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/main.ts:3:7
+  1  |  import "./assets/main.css";
+     |          ^
+  2  |  import { createApp } from "vue";
+  3  |  import { createPinia } from "pinia";
+18:09:03 [vite] Internal server error: Failed to resolve import "./assets/main.css" from "src/main.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/main.ts:3:7
+  1  |  import "./assets/main.css";
+     |          ^
+  2  |  import { createApp } from "vue";
+  3  |  import { createPinia } from "pinia";
+      at TransformPluginContext._formatLog (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+18:09:08 [vite] (client) page reload src/main.ts
+18:09:27 [vite] (client) hmr update /src/views/UserDetails.vue
+18:09:55 [vite] (client) page reload src/router/index.ts
+18:10:27 [vite] (client) hmr update /src/views/UserDetails.vue
+18:10:46 [vite] (client) hmr update /src/views/UserDetails.vue
+18:11:04 [vite] (client) hmr update /src/views/UserDetails.vue
+18:11:47 [vite] (client) hmr update /src/views/UserDetails.vue
+18:11:51 [vite] (client) hmr update /src/views/UserDetails.vue
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 3588 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+18:16:06 [vite] (client) hmr update /src/components/PlayerCard.vue
+18:16:22 [vite] (client) page reload src/router/index.ts
+18:16:43 [vite] (client) hmr update /src/views/UserDetails.vue
+18:16:45 [vite] (client) hmr update /src/views/UserDetails.vue
+18:16:47 [vite] (client) hmr update /src/views/UserDetails.vue
+18:17:01 [vite] (client) hmr update /src/views/UserDetails.vue
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 3730 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+18:36:03 [vite] (client) hmr update /src/views/UserDetails.vue, /src/views/HomeView.vue, /src/components/ CreateNewPlayCard.vue, /src/components/PlayerCard.vue
+18:36:15 [vite] (client) hmr update /src/views/UserDetails.vue, /src/views/HomeView.vue, /src/components/ CreateNewPlayCard.vue, /src/components/PlayerCard.vue
+18:36:25 [vite] (client) hmr update /src/views/UserDetails.vue, /src/views/HomeView.vue, /src/components/ CreateNewPlayCard.vue, /src/components/PlayerCard.vue
+18:36:41 [vite] (client) hmr update /src/views/UserDetails.vue, /src/views/HomeView.vue, /src/components/ CreateNewPlayCard.vue, /src/components/PlayerCard.vue
+18:37:40 [vite] (client) hmr update /src/views/UserDetails.vue, /src/views/HomeView.vue, /src/components/ CreateNewPlayCard.vue, /src/components/PlayerCard.vue
+18:38:31 [vite] (client) hmr update /src/views/UserDetails.vue, /src/views/HomeView.vue, /src/components/ CreateNewPlayCard.vue, /src/components/PlayerCard.vue
+18:38:39 [vite] (client) hmr update /src/views/UserDetails.vue, /src/views/HomeView.vue, /src/components/ CreateNewPlayCard.vue, /src/components/PlayerCard.vue
+18:38:39 [vite] (client) hmr update /src/views/UserDetails.vue, /src/views/HomeView.vue, /src/components/ CreateNewPlayCard.vue, /src/components/PlayerCard.vue
+18:38:53 [vite] (client) hmr update /src/views/UserDetails.vue
+18:39:01 [vite] (client) hmr update /src/views/UserDetails.vue
+18:39:11 [vite] (client) hmr update /src/views/UserDetails.vue
+18:39:39 [vite] (client) hmr update /src/views/UserDetails.vue
+18:39:50 [vite] (client) hmr update /src/views/UserDetails.vue
+18:39:54 [vite] (client) hmr update /src/views/UserDetails.vue
+18:40:43 [vite] (client) hmr update /src/views/UserDetails.vue
+18:41:00 [vite] (client) hmr update /src/views/UserDetails.vue
+18:41:29 [vite] (client) hmr update /src/views/UserDetails.vue
+18:41:46 [vite] (client) hmr update /src/views/UserDetails.vue, /src/views/HomeView.vue, /src/components/ CreateNewPlayCard.vue, /src/components/PlayerCard.vue
+18:44:28 [vite] (client) hmr update /src/views/UserDetails.vue
+18:44:45 [vite] (client) hmr update /src/views/UserDetails.vue
+18:45:17 [vite] (client) hmr update /src/views/UserDetails.vue
+18:45:29 [vite] (client) hmr update /src/views/UserDetails.vue
+18:45:37 [vite] (client) hmr update /src/views/UserDetails.vue
+18:45:42 [vite] (client) hmr update /src/views/UserDetails.vue
+18:45:53 [vite] (client) hmr update /src/views/UserDetails.vue
+18:46:27 [vite] (client) hmr update /src/views/UserDetails.vue
+18:46:54 [vite] (client) hmr update /src/views/UserDetails.vue
+18:47:01 [vite] (client) hmr update /src/views/UserDetails.vue
+18:47:52 [vite] (client) hmr update /src/views/UserDetails.vue
+18:48:02 [vite] (client) hmr update /src/views/UserDetails.vue
+18:48:08 [vite] (client) hmr update /src/views/UserDetails.vue
+18:48:08 [vite] (client) hmr update /src/views/UserDetails.vue
+18:48:08 [vite] (client) hmr update /src/views/UserDetails.vue
+18:48:23 [vite] (client) hmr update /src/views/UserDetails.vue
+18:48:26 [vite] (client) hmr update /src/views/UserDetails.vue
+18:48:30 [vite] (client) hmr update /src/views/UserDetails.vue
+18:48:36 [vite] (client) hmr update /src/views/UserDetails.vue
+18:50:34 [vite] (client) hmr update /src/views/UserDetails.vue
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 4092 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2910 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2893 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2840 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2556 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2778 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2719 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2406 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2395 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2687 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+20:08:49 [vite] (client) hmr update /src/views/UserDetails.vue
+20:09:15 [vite] (client) hmr update /src/views/UserDetails.vue
+20:09:33 [vite] (client) hmr update /src/views/UserDetails.vue
+20:09:41 [vite] (client) hmr update /src/views/UserDetails.vue
+20:09:47 [vite] (client) hmr update /src/views/UserDetails.vue
+20:09:56 [vite] (client) hmr update /src/views/UserDetails.vue
+20:10:04 [vite] (client) hmr update /src/views/UserDetails.vue
+20:10:42 [vite] (client) hmr update /src/views/UserDetails.vue
+20:10:45 [vite] (client) hmr update /src/views/UserDetails.vue
+20:10:48 [vite] (client) hmr update /src/views/UserDetails.vue
+20:10:57 [vite] (client) hmr update /src/views/UserDetails.vue
+20:11:03 [vite] (client) hmr update /src/views/UserDetails.vue
+20:11:17 [vite] (client) hmr update /src/views/UserDetails.vue
+20:11:25 [vite] (client) hmr update /src/views/UserDetails.vue
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2690 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2458 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2503 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+20:29:57 [vite] (client) hmr update /src/views/UserDetails.vue
+20:30:04 [vite] (client) hmr update /src/views/UserDetails.vue
+20:30:20 [vite] (client) hmr update /src/views/UserDetails.vue
+20:30:25 [vite] (client) hmr update /src/views/UserDetails.vue
+20:30:28 [vite] (client) hmr update /src/views/UserDetails.vue
+20:30:30 [vite] (client) hmr update /src/views/UserDetails.vue
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 3152 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+20:35:26 [vite] (client) hmr update /src/views/UserDetails.vue
+20:35:32 [vite] (client) hmr update /src/views/UserDetails.vue
+20:35:34 [vite] (client) hmr update /src/views/UserDetails.vue
+20:35:49 [vite] (client) hmr update /src/views/UserDetails.vue
+20:36:04 [vite] (client) hmr update /src/views/UserDetails.vue
+20:36:07 [vite] (client) hmr update /src/views/UserDetails.vue
+20:36:13 [vite] (client) hmr update /src/views/UserDetails.vue
+20:36:25 [vite] (client) hmr update /src/views/UserDetails.vue
+20:36:25 [vite] Internal server error: Invalid end tag.
+  Plugin: vite:vue
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/views/UserDetails.vue:45:3
+  43 |      </div>
+  44 |    </div>
+  45 |    </div>
+     |     ^
+  46 |  </template>
+  47 |  
+      at createCompilerError (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1364:17)
+      at emitError (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2949:5)
+      at Object.onclosetag (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2318:9)
+      at Tokenizer.stateInClosingTagName (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:785:16)
+      at Tokenizer.parse (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1143:16)
+      at Object.baseParse (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2988:13)
+      at Object.parse (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.js:904:23)
+      at Object.parse$1 [as parse] (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-sfc/dist/compiler-sfc.cjs.js:1794:24)
+      at createDescriptor (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vitejs/plugin-vue/dist/index.mjs:71:43)
+      at handleHotUpdate (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vitejs/plugin-vue/dist/index.mjs:2198:26)
+20:36:33 [vite] (client) hmr update /src/views/UserDetails.vue
+20:36:41 [vite] (client) hmr update /src/views/UserDetails.vue
+20:36:54 [vite] (client) hmr update /src/views/UserDetails.vue
+20:37:06 [vite] (client) hmr update /src/views/UserDetails.vue
+20:37:29 [vite] (client) hmr update /src/views/UserDetails.vue
+20:38:38 [vite] (client) hmr update /src/views/UserDetails.vue
+20:38:43 [vite] (client) hmr update /src/views/UserDetails.vue
+20:39:42 [vite] (client) hmr update /src/views/UserDetails.vue
+20:39:51 [vite] (client) hmr update /src/views/UserDetails.vue
+20:39:58 [vite] (client) hmr update /src/views/UserDetails.vue
+20:40:09 [vite] (client) hmr update /src/views/UserDetails.vue
+20:40:14 [vite] (client) hmr update /src/views/UserDetails.vue
+20:40:26 [vite] (client) hmr update /src/views/UserDetails.vue
+20:40:31 [vite] (client) hmr update /src/views/UserDetails.vue
+20:40:41 [vite] (client) hmr update /src/views/UserDetails.vue
+20:40:47 [vite] (client) hmr update /src/views/UserDetails.vue
+20:41:11 [vite] (client) hmr update /src/views/UserDetails.vue
+20:41:12 [vite] (client) hmr update /src/views/UserDetails.vue
+20:41:15 [vite] (client) hmr update /src/views/UserDetails.vue
+20:41:32 [vite] (client) hmr update /src/views/UserDetails.vue
+20:41:42 [vite] (client) hmr update /src/views/UserDetails.vue
+20:41:43 [vite] (client) hmr update /src/views/UserDetails.vue
+20:41:54 [vite] (client) hmr update /src/views/UserDetails.vue
+20:42:06 [vite] (client) hmr update /src/style.css
+20:42:18 [vite] (client) hmr update /src/views/UserDetails.vue
+20:42:59 [vite] (client) hmr update /src/style.css
+20:43:03 [vite] (client) hmr update /src/views/UserDetails.vue
+20:43:52 [vite] (client) hmr update /src/views/UserDetails.vue
+20:44:09 [vite] (client) hmr update /src/views/UserDetails.vue
+20:44:22 [vite] (client) hmr update /src/views/UserDetails.vue
+20:44:53 [vite] (client) hmr update /src/views/UserDetails.vue
+20:46:08 [vite] (client) hmr update /src/views/UserDetails.vue
+20:46:22 [vite] (client) hmr update /src/views/UserDetails.vue
+20:47:10 [vite] (client) hmr update /src/views/UserDetails.vue
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2163 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2807 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 5344 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2348 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 3440 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 3763 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2438 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 4845 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 3857 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 3090 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2817 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 4124 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 5119 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+22:53:16 [vite] (client) hmr update /src/components/PlayerCard.vue
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 3291 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+22:54:35 [vite] (client) hmr update /src/components/ CreateNewPlayCard.vue
+22:54:44 [vite] (client) hmr update /src/components/ CreateNewPlayCard.vue
+22:54:52 [vite] (client) hmr update /src/components/ CreateNewPlayCard.vue
+22:54:57 [vite] (client) hmr update /src/components/ CreateNewPlayCard.vue
+22:55:00 [vite] (client) hmr update /src/components/ CreateNewPlayCard.vue
+22:56:47 [vite] (client) page reload src/router/index.ts
+22:56:55 [vite] (client) page reload src/router/index.ts
+22:57:01 [vite] (client) page reload src/router/index.ts
+22:57:08 [vite] (client) page reload src/router/index.ts
+22:57:09 [vite] (client) page reload src/router/index.ts
+22:57:09 [vite] (client) page reload src/router/index.ts
+22:57:18 [vite] (client) hmr update /src/views/HomeView.vue
+22:57:39 [vite] (client) hmr update /src/views/UserDetails.vue
+22:57:59 [vite] (client) hmr update /src/views/UserDetails.vue
+22:58:26 [vite] (client) hmr update /src/views/UserDetails.vue
+22:58:26 [vite] Internal server error: Error parsing JavaScript expression: Unexpected token (1:10)
+  Plugin: vite:vue
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/views/UserDetails.vue:64:69
+  62 |  
+  63 |      <div class="card-grid">
+  64 |        <PlayerCard v-if="card" :key="card.id" :card="card" @addChips=addChips/>
+     |                                                                       ^
+  65 |  
+  66 |      </div>
+      at createCompilerError (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1364:17)
+      at emitError (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2949:5)
+      at createExp (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2942:7)
+      at Object.onattribend (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2459:29)
+      at Tokenizer.stateInAttrValueNoQuotes (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:964:16)
+      at Tokenizer.parse (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1179:16)
+      at Object.baseParse (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2988:13)
+      at Object.parse (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.js:904:23)
+      at Object.parse$1 [as parse] (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-sfc/dist/compiler-sfc.cjs.js:1794:24)
+      at createDescriptor (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vitejs/plugin-vue/dist/index.mjs:71:43)
+22:58:31 [vite] (client) hmr update /src/views/UserDetails.vue
+22:58:36 [vite] (client) hmr update /src/components/PlayerCard.vue
+22:58:42 [vite] (client) hmr update /src/components/PlayerCard.vue
+22:59:11 [vite] (client) hmr update /src/views/UserDetails.vue
+22:59:15 [vite] (client) hmr update /src/views/UserDetails.vue
+22:59:39 [vite] (client) hmr update /src/views/UserDetails.vue
+22:59:59 [vite] (client) hmr update /src/views/UserDetails.vue
+23:00:06 [vite] (client) hmr update /src/views/UserDetails.vue
+23:00:15 [vite] (client) hmr update /src/views/UserDetails.vue
+23:00:25 [vite] (client) hmr update /src/views/UserDetails.vue
+23:01:25 [vite] (client) hmr update /src/views/UserDetails.vue
+23:02:08 [vite] (client) hmr update /src/views/UserDetails.vue, /src/views/UserDetails.vue?vue&type=style&index=0&scoped=3a52749c&lang.css
+23:02:11 [vite] (client) hmr update /src/views/UserDetails.vue
+23:02:16 [vite] (client) hmr update /src/views/UserDetails.vue
+23:02:24 [vite] (client) hmr update /src/views/UserDetails.vue
+23:02:30 [vite] (client) hmr update /src/views/UserDetails.vue
+23:02:39 [vite] (client) hmr update /src/views/UserDetails.vue
+23:02:44 [vite] (client) hmr update /src/views/UserDetails.vue
+23:02:57 [vite] (client) hmr update /src/views/UserDetails.vue
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 4288 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+23:10:17 [vite] (client) hmr update /src/views/UserDetails.vue
+23:10:23 [vite] (client) hmr update /src/views/UserDetails.vue
+23:11:25 [vite] (client) hmr update /src/views/UserDetails.vue
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 2916 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 5456 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 4929 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+13:17:37 [vite] (client) hmr update /src/views/UserDetails.vue
+13:17:58 [vite] (client) hmr update /src/views/UserDetails.vue
+13:18:10 [vite] (client) Pre-transform error: [vue/compiler-sfc] Unexpected token (18:9)
+
+/home/ryan/Documents/git/coinpusher/database/gui/src/views/UserDetails.vue
+16 |    if (games)
+17 |      return gameStore.getGames.reverse()
+18 |    retrun[]
+   |           ^
+19 |  })
+20 |  
+  Plugin: vite:vue
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/views/UserDetails.vue:18:9
+  15 |    const games = gameStore.getGames;
+  16 |    if (games)
+  17 |      return gameStore.getGames.reverse()
+     |                           ^
+  18 |    retrun[]
+  19 |  })
+13:18:10 [vite] Internal server error: [vue/compiler-sfc] Unexpected token (18:9)
+
+/home/ryan/Documents/git/coinpusher/database/gui/src/views/UserDetails.vue
+16 |    if (games)
+17 |      return gameStore.getGames.reverse()
+18 |    retrun[]
+   |           ^
+19 |  })
+20 |  
+  Plugin: vite:vue
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/views/UserDetails.vue:18:9
+  15 |    const games = gameStore.getGames;
+  16 |    if (games)
+  17 |      return gameStore.getGames.reverse()
+     |                           ^
+  18 |    retrun[]
+  19 |  })
+      at constructor (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@babel/parser/lib/index.js:360:19)
+      at TypeScriptParserMixin.raise (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@babel/parser/lib/index.js:6613:19)
+      at TypeScriptParserMixin.unexpected (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@babel/parser/lib/index.js:6633:16)
+      at TypeScriptParserMixin.parseExprAtom (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@babel/parser/lib/index.js:11358:16)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@babel/parser/lib/index.js:10992:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@babel/parser/lib/index.js:10977:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@babel/parser/lib/index.js:10957:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@babel/parser/lib/index.js:9779:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@babel/parser/lib/index.js:10810:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@babel/parser/lib/index.js:10815:23)
+13:18:26 [vite] (client) hmr update /src/views/UserDetails.vue
+13:18:29 [vite] (client) hmr update /src/views/UserDetails.vue
+13:18:50 [vite] (client) hmr update /src/views/UserDetails.vue
+13:18:53 [vite] (client) hmr update /src/views/UserDetails.vue
+13:19:21 [vite] (client) hmr update /src/views/UserDetails.vue
+13:19:23 [vite] (client) hmr update /src/views/UserDetails.vue
+13:19:29 [vite] (client) hmr update /src/views/UserDetails.vue
+13:19:32 [vite] (client) hmr update /src/views/UserDetails.vue
+13:19:39 [vite] (client) hmr update /src/views/UserDetails.vue
+13:19:59 [vite] (client) hmr update /src/views/UserDetails.vue
+13:21:02 [vite] (client) hmr update /src/views/UserDetails.vue
+13:21:23 [vite] (client) hmr update /src/views/UserDetails.vue
+13:21:26 [vite] (client) hmr update /src/views/UserDetails.vue
+13:22:08 [vite] (client) hmr update /src/views/UserDetails.vue
+13:22:18 [vite] (client) hmr update /src/views/UserDetails.vue
+13:22:21 [vite] (client) hmr update /src/views/UserDetails.vue
+13:22:22 [vite] (client) hmr update /src/views/UserDetails.vue
+13:22:45 [vite] (client) hmr update /src/views/UserDetails.vue
+13:22:50 [vite] (client) hmr update /src/views/UserDetails.vue
+13:23:09 [vite] (client) hmr update /src/views/UserDetails.vue
+13:23:10 [vite] (client) hmr update /src/views/UserDetails.vue
+13:23:32 [vite] (client) hmr update /src/views/UserDetails.vue
+13:23:33 [vite] (client) hmr update /src/views/UserDetails.vue
+13:23:53 [vite] (client) hmr update /src/views/UserDetails.vue
+13:24:03 [vite] (client) hmr update /src/views/UserDetails.vue
+13:24:10 [vite] (client) hmr update /src/views/UserDetails.vue
+13:25:16 [vite] (client) hmr update /src/views/UserDetails.vue
+13:25:24 [vite] (client) hmr update /src/views/UserDetails.vue
+13:25:28 [vite] (client) hmr update /src/views/UserDetails.vue
+13:26:27 [vite] (client) hmr update /src/views/UserDetails.vue
+13:26:36 [vite] (client) hmr update /src/views/UserDetails.vue
+13:26:40 [vite] (client) hmr update /src/views/UserDetails.vue
+13:26:52 [vite] (client) hmr update /src/views/UserDetails.vue
+13:26:59 [vite] (client) hmr update /src/views/UserDetails.vue
+13:27:13 [vite] (client) hmr update /src/style.css
+13:27:33 [vite] (client) hmr update /src/views/UserDetails.vue
+13:27:38 [vite] (client) hmr update /src/views/UserDetails.vue
+13:27:51 [vite] (client) hmr update /src/views/UserDetails.vue?vue&type=style&index=0&scoped=3a52749c&lang.css
+13:27:52 [vite] (client) hmr update /src/views/UserDetails.vue?vue&type=style&index=0&scoped=3a52749c&lang.css
+13:28:16 [vite] (client) hmr update /src/views/UserDetails.vue
+13:28:22 [vite] (client) hmr update /src/views/UserDetails.vue
+13:28:40 [vite] (client) hmr update /src/views/UserDetails.vue
+13:28:53 [vite] (client) hmr update /src/views/UserDetails.vue
+13:29:12 [vite] (client) hmr update /src/style.css
+13:29:16 [vite] (client) hmr update /src/views/UserDetails.vue
+13:29:36 [vite] (client) hmr update /src/components/PlayerCard.vue
+13:30:06 [vite] (client) hmr update /src/components/PlayerCard.vue
+13:30:10 [vite] (client) hmr update /src/components/PlayerCard.vue
+13:30:39 [vite] (client) hmr update /src/style.css
+13:30:45 [vite] (client) hmr update /src/style.css
+13:31:07 [vite] (client) hmr update /src/components/PlayerCard.vue
+13:31:13 [vite] (client) hmr update /src/style.css
+13:31:33 [vite] (client) hmr update /src/style.css
+13:31:46 [vite] (client) hmr update /src/style.css
+13:32:08 [vite] (client) hmr update /src/style.css
+13:32:09 [vite] (client) hmr update /src/style.css
+13:32:18 [vite] (client) hmr update /src/style.css
+13:32:33 [vite] (client) hmr update /src/style.css
+13:32:33 [vite] Internal server error: [postcss] /home/ryan/Documents/git/coinpusher/database/gui/src/style.css:61:3: Unknown word margin0
+  Plugin: vite:css
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/style.css:61:2
+  59 |  p {
+  60 |    padding: 0;
+  61 |    margin0
+     |    ^
+  62 |  }
+  63 |  .text-white {
+      at Input.error (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/postcss/lib/input.js:113:16)
+      at Parser.unknownWord (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/postcss/lib/parser.js:595:22)
+      at Parser.other (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/postcss/lib/parser.js:437:12)
+      at Parser.parse (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/postcss/lib/processor.js:53:14)
+      at runPostCSS (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:43824:52)
+      at async compilePostCSS (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:43794:18)
+      at async compileCSS (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:43649:27)
+13:32:34 [vite] (client) hmr update /src/style.css
+13:32:34 [vite] (client) hmr update /src/style.css
+13:33:19 [vite] (client) hmr update /src/style.css
+13:33:33 [vite] (client) hmr update /src/views/UserDetails.vue
+13:33:49 [vite] (client) hmr update /src/views/UserDetails.vue
+13:49:34 [vite] (client) hmr update /src/views/UserDetails.vue
+13:49:34 [vite] Internal server error: Element is missing end tag.
+  Plugin: vite:vue
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/views/UserDetails.vue:74:5
+  72 |  
+  73 |  
+  74 |      <ListGames v-model:games="games" </div>
+     |       ^
+  75 |        <!-- </div> -->
+  76 |  </template>
+      at createCompilerError (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1364:17)
+      at emitError (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2949:5)
+      at Object.onclosetag (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2308:13)
+      at Tokenizer.stateInClosingTagName (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:785:16)
+      at Tokenizer.parse (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1143:16)
+      at Object.baseParse (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2988:13)
+      at Object.parse (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.js:904:23)
+      at Object.parse$1 [as parse] (/home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vue/compiler-sfc/dist/compiler-sfc.cjs.js:1794:24)
+      at createDescriptor (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vitejs/plugin-vue/dist/index.mjs:71:43)
+      at handleHotUpdate (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/@vitejs/plugin-vue/dist/index.mjs:2198:26)
+13:49:40 [vite] (client) hmr update /src/views/UserDetails.vue
+13:50:27 [vite] (client) hmr update /src/views/UserDetails.vue
+13:50:27 [vite] Internal server error: Failed to resolve import "../components/ListGames" from "src/views/UserDetails.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ryan/Documents/git/coinpusher/database/gui/src/views/UserDetails.vue:5:22
+  3  |  import { usePlayCard } from "../stores/playCard";
+  4  |  import PlayerCard from "../components/PlayerCard.vue";
+  5  |  import ListGames from "../components/ListGames";
+     |                         ^
+  6  |  import { useRouter } from "vue-router";
+  7  |  import { useGameStore } from "../stores/gameStore";
+      at TransformPluginContext._formatLog (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/ryan/Documents/git/coinpusher/database/gui/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+13:50:28 [vite] (client) page reload src/views/UserDetails.vue
+13:50:40 [vite] (client) hmr update /src/components/ListGames.vue
+13:50:55 [vite] (client) hmr update /src/views/UserDetails.vue
+13:50:57 [vite] (client) hmr update /src/components/ListGames.vue
+13:51:06 [vite] (client) hmr update /src/components/ListGames.vue
+13:51:33 [vite] (client) hmr update /src/components/ListGames.vue
+13:51:49 [vite] (client) hmr update /src/components/ListGames.vue
+13:51:55 [vite] (client) hmr update /src/components/ListGames.vue
+13:51:59 [vite] (client) hmr update /src/components/ListGames.vue
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 3236 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 5456 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 4822 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 4736 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 4678 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 3305 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/
+
+> arcade-ticket-tracker@0.0.0 dev
+> vite --host
+
+
+  VITE v6.3.5  ready in 12791 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.3.21:5174/

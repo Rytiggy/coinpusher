@@ -1,0 +1,972 @@
+Fontconfig error: Cannot load default config file: No such file: (null)
+[10818:10818:0527/083638.080731:ERROR:interface_endpoint_client.cc(725)] Message 2 rejected by interface blink.mojom.Widget
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[10913:10913:0527/083647.350479:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.357636:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.361380:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.369715:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.376955:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.387732:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.394803:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.401861:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.409492:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.416401:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.423311:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.430910:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.439254:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.447673:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.456176:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.464733:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.467841:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.470084:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.472288:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.480119:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.486911:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.487885:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.488499:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.489366:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.490239:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.491132:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.492089:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10913:10913:0527/083647.493002:ERROR:shared_image_manager.cc(248)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10818:10818:0527/083647.877096:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x14000147c0 destroyed while proxies still attached:
+
+[10818:10818:0527/083647.877400:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#47 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+[11491:11491:0527/083709.084609:ERROR:interface_endpoint_client.cc(725)] Message 2 rejected by interface blink.mojom.Widget
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[11491:11491:0527/083836.727451:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x4c0000d100 destroyed while proxies still attached:
+
+[11491:11491:0527/083836.727779:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+[1822:2156:0527/084550.637640:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1822:2156:0527/084550.640825:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1822:2156:0527/084550.641176:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1822:2156:0527/084550.641280:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1822:2156:0527/084550.641329:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1822:2156:0527/084552.028839:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1822:2156:0527/084552.028953:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[2303:2303:0527/084552.217603:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2303:2303:0527/084552.230056:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2303:2303:0527/084552.230376:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2303:2303:0527/084552.230504:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2303:2303:0527/084552.230637:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2303:2303:0527/084552.230716:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2303:2303:0527/084552.230841:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2303:2303:0527/084552.230952:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2303:2303:0527/084552.231070:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2303:2303:0527/084552.231146:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2303:2303:0527/084552.231262:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2303:2303:0527/084552.231332:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2303:2303:0527/084552.231454:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2303:2303:0527/084552.231543:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2303:2303:0527/084552.231660:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2303:2303:0527/084552.231730:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2303:2303:0527/084552.233059:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2303:2303:0527/084552.233274:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2303:2303:0527/084552.233427:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2303:2303:0527/084552.233551:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2303:2303:0527/084552.233709:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2303:2303:0527/084552.233782:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2303:2303:0527/084552.233906:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2303:2303:0527/084552.233975:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2303:2303:0527/084552.234156:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2303:2303:0527/084552.234243:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2303:2303:0527/084552.234439:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2303:2303:0527/084552.234541:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2303:2303:0527/084552.234673:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2303:2303:0527/084552.234747:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2303:2303:0527/084552.234863:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2303:2303:0527/084552.234933:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1822:2136:0527/084552.770061:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1822:2156:0527/084552.907453:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1822:2156:0527/084552.907549:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1822:1822:0527/084553.542672:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1822:2299:0527/084553.542945:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1822:1822:0527/084553.667056:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1822:2138:0527/084553.667357:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1822:1822:0527/084553.707825:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1822:2137:0527/084553.708256:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1822:1822:0527/084553.723325:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1822:2136:0527/084553.723564:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1822:1822:0527/084553.726999:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[2303:2303:0527/084554.921812:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+close object 1: Invalid argument
+close object 2: Invalid argument
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 3: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[3671:3671:0527/160659.432248:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x2400004e00 destroyed while proxies still attached:
+
+[3671:3671:0527/160659.434473:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[4356:4356:0527/162440.672838:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x240004dc80 destroyed while proxies still attached:
+
+[4356:4356:0527/162440.673473:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[5334:5334:0527/162557.269414:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x34022046c0 destroyed while proxies still attached:
+
+[5334:5334:0527/162557.291113:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#47 still attached
+
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[5987:5987:0527/170444.988087:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x3c000055c0 destroyed while proxies still attached:
+
+[5987:5987:0527/170444.988736:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[7234:7234:0527/175612.743444:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x1400030780 destroyed while proxies still attached:
+
+[7234:7234:0527/175612.745533:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 4: Invalid argument
+close object 5: Invalid argument
+[8499:8499:0527/175844.510432:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x1c000112c0 destroyed while proxies still attached:
+
+[8499:8499:0527/175844.510760:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#48 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[9385:9385:0527/181341.020914:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x3c00015380 destroyed while proxies still attached:
+
+[9385:9385:0527/181341.031998:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[11041:11041:0527/183118.743796:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x3c02231800 destroyed while proxies still attached:
+
+[11041:11041:0527/183118.852107:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#43 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[12439:12439:0527/193004.205284:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x4c000315c0 destroyed while proxies still attached:
+
+[12439:12439:0527/193004.240604:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+[14292:14292:0527/193654.768390:ERROR:interface_endpoint_client.cc(725)] Message 2 rejected by interface blink.mojom.Widget
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[14292:14292:0527/194207.258625:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x3c00005200 destroyed while proxies still attached:
+
+[14292:14292:0527/194207.258979:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[14970:14970:0527/194310.302276:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x1c02236700 destroyed while proxies still attached:
+
+[14970:14970:0527/194310.302583:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[15644:15644:0527/194604.151806:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x14000310c0 destroyed while proxies still attached:
+
+[15644:15644:0527/194604.152324:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[16339:16339:0527/195034.027978:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x3402205180 destroyed while proxies still attached:
+
+[16339:16339:0527/195034.028826:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[17250:17250:0527/195547.723465:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x2404405480 destroyed while proxies still attached:
+
+[17250:17250:0527/195547.724036:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[17979:17979:0527/195610.972657:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x3402232380 destroyed while proxies still attached:
+
+[17979:17979:0527/195610.973077:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[19000:19000:0527/195639.035566:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x1c00049000 destroyed while proxies still attached:
+
+[19000:19000:0527/195639.035848:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[19629:19629:0527/195843.472074:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x1400034700 destroyed while proxies still attached:
+
+[19629:19629:0527/195843.472391:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[20310:20310:0527/200203.978146:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x3402211840 destroyed while proxies still attached:
+
+[20310:20310:0527/200203.978543:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#47 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[21028:21028:0527/201147.471696:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x2400015440 destroyed while proxies still attached:
+
+[21028:21028:0527/201147.487699:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#47 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[21954:21954:0527/201300.825301:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x4c000116c0 destroyed while proxies still attached:
+
+[21954:21954:0527/201300.829034:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[22654:22654:0527/201541.429884:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x2400021300 destroyed while proxies still attached:
+
+[22654:22654:0527/201541.430675:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[23376:23376:0527/203316.296787:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x4c0003d080 destroyed while proxies still attached:
+
+[23376:23376:0527/203316.340287:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+close object 1: Invalid argument
+close object 2: Invalid argument
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 3: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[24524:24524:0527/205137.927340:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x1c0222cd40 destroyed while proxies still attached:
+
+[24524:24524:0527/205137.927637:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#47 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[25582:25582:0527/210801.996676:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x4c00015100 destroyed while proxies still attached:
+
+[25582:25582:0527/210801.997019:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#47 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+[26883:26883:0527/210807.800776:ERROR:interface_endpoint_client.cc(725)] Message 2 rejected by interface blink.mojom.Widget
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[1681:1935:0527/211514.392125:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1681:1935:0527/211514.403887:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1681:1935:0527/211514.404030:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1681:1935:0527/211514.404084:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1681:1935:0527/211514.404121:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1681:1935:0527/211516.032479:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1681:1935:0527/211516.032597:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1997:1997:0527/211516.156834:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1997:1997:0527/211516.199451:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1997:1997:0527/211516.199889:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1997:1997:0527/211516.200015:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1997:1997:0527/211516.200172:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1997:1997:0527/211516.200271:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1997:1997:0527/211516.200491:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1997:1997:0527/211516.200602:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1997:1997:0527/211516.200757:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1997:1997:0527/211516.200847:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1997:1997:0527/211516.200997:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1997:1997:0527/211516.201077:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1997:1997:0527/211516.201205:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1997:1997:0527/211516.201286:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1997:1997:0527/211516.201416:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1997:1997:0527/211516.201495:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1997:1997:0527/211516.202794:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1997:1997:0527/211516.203121:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1997:1997:0527/211516.203576:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1997:1997:0527/211516.203803:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1997:1997:0527/211516.203985:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1997:1997:0527/211516.204073:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1997:1997:0527/211516.204233:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1997:1997:0527/211516.204317:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1997:1997:0527/211516.204452:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1997:1997:0527/211516.204537:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1997:1997:0527/211516.204699:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1997:1997:0527/211516.204782:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1997:1997:0527/211516.204912:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1997:1997:0527/211516.205004:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1997:1997:0527/211516.205134:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1997:1997:0527/211516.205215:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1681:1931:0527/211517.397395:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1681:1935:0527/211517.663606:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1681:1935:0527/211517.663753:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1681:1681:0527/211518.798916:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1681:1955:0527/211518.799175:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1681:1681:0527/211518.971471:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1681:1933:0527/211518.987954:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1681:1681:0527/211519.052350:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1681:1932:0527/211519.053142:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1681:1681:0527/211519.085823:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1681:1931:0527/211519.104551:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1681:1681:0527/211519.108178:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1997:1997:0527/211521.382897:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[1997:1997:0527/211522.692852:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+close object 1: Invalid argument
+close object 2: Invalid argument
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[4659:4659:0527/215646.350635:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x2c02205840 destroyed while proxies still attached:
+
+[4659:4659:0527/215646.351064:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[5462:5462:0527/215732.504389:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x2c00030840 destroyed while proxies still attached:
+
+[5462:5462:0527/215732.505520:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#43 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[6139:6139:0527/215941.910014:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x4c000310c0 destroyed while proxies still attached:
+
+[6139:6139:0527/215941.956900:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#43 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[6818:6818:0527/220238.251208:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x2402204800 destroyed while proxies still attached:
+
+[6818:6818:0527/220238.296158:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[7538:7538:0527/220525.179644:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x1c00006100 destroyed while proxies still attached:
+
+[7538:7538:0527/220525.181627:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[8259:8259:0527/220912.466083:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x2c00030780 destroyed while proxies still attached:
+
+[8259:8259:0527/220912.515116:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#47 still attached
+
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[9054:9054:0527/220955.194462:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x440002dac0 destroyed while proxies still attached:
+
+[9054:9054:0527/220955.194795:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+close object 1: Invalid argument
+close object 2: Invalid argument
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 3: Invalid argument
+[9762:9762:0527/221004.322004:ERROR:interface_endpoint_client.cc(725)] Message 2 rejected by interface blink.mojom.Widget
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[9762:9762:0527/221245.670009:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x4c000057c0 destroyed while proxies still attached:
+
+[9762:9762:0527/221245.684787:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[10518:10518:0527/221651.553458:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[10518:10518:0527/221651.681146:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[10518:10518:0527/221651.721068:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[10518:10518:0527/221651.976984:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[10518:10518:0527/221652.010454:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[10518:10518:0527/221652.055632:ERROR:network_service_instance_impl.cc(613)] Network service crashed, restarting service.
+[10518:10518:0527/221654.108504:ERROR:gpu_process_host.cc(976)] GPU process launch failed: error_code=1002
+[10518:10518:0527/221654.714525:ERROR:gpu_process_host.cc(976)] GPU process launch failed: error_code=1002
+[10518:10518:0527/221654.733998:ERROR:gpu_process_host.cc(976)] GPU process launch failed: error_code=1002
+[10518:10518:0527/221654.740917:ERROR:gpu_process_host.cc(976)] GPU process launch failed: error_code=1002
+[10518:10518:0527/221654.755979:ERROR:gpu_process_host.cc(976)] GPU process launch failed: error_code=1002
+[10518:10518:0527/221654.761952:ERROR:gpu_process_host.cc(976)] GPU process launch failed: error_code=1002
+[10518:10518:0527/221654.768607:ERROR:gpu_process_host.cc(976)] GPU process launch failed: error_code=1002
+[10518:10518:0527/221654.774433:ERROR:gpu_process_host.cc(976)] GPU process launch failed: error_code=1002
+[10518:10518:0527/221654.780409:ERROR:gpu_process_host.cc(976)] GPU process launch failed: error_code=1002
+[10518:10518:0527/221654.780553:FATAL:gpu_data_manager_impl_private.cc(423)] GPU process isn't usable. Goodbye.
+[0527/221655.250302:ERROR:elf_dynamic_array_reader.h(64)] tag not found
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[11731:11731:0527/225340.992670:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x3400009100 destroyed while proxies still attached:
+
+[11731:11731:0527/225341.176249:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#47 still attached
+
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[13066:13066:0527/230414.416222:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x4400034f80 destroyed while proxies still attached:
+
+[13066:13066:0527/230414.424699:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#45 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+[14048:14048:0527/230426.000429:ERROR:interface_endpoint_client.cc(725)] Message 6 rejected by interface blink.mojom.WidgetHost
+[14048:14048:0527/230426.001679:ERROR:interface_endpoint_client.cc(725)] Message 7 rejected by interface blink.mojom.WidgetHost
+[14048:14048:0527/230426.021157:ERROR:interface_endpoint_client.cc(725)] Message 2 rejected by interface blink.mojom.Widget
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[14048:14048:0527/231302.127768:ERROR:wayland_event_watcher.cc(47)] libwayland: warning: queue 0x4c02205180 destroyed while proxies still attached:
+
+[14048:14048:0527/231302.128356:ERROR:wayland_event_watcher.cc(47)] libwayland:   wl_shm_pool#47 still attached
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[1685:1937:0527/231809.411907:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1685:1937:0527/231809.430856:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1685:1937:0527/231809.431526:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1685:1937:0527/231809.432091:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1685:1937:0527/231809.432317:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1685:1937:0527/231811.047842:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1685:1937:0527/231811.047979:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1958:1958:0527/231811.303642:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1958:1958:0527/231811.312416:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1958:1958:0527/231811.312921:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1958:1958:0527/231811.313355:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1958:1958:0527/231811.313820:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1958:1958:0527/231811.315401:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1958:1958:0527/231811.315890:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1958:1958:0527/231811.316071:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1958:1958:0527/231811.316324:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1958:1958:0527/231811.316459:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1958:1958:0527/231811.316637:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1958:1958:0527/231811.316755:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1958:1958:0527/231811.316937:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1958:1958:0527/231811.317070:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1958:1958:0527/231811.317309:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1958:1958:0527/231811.317427:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1958:1958:0527/231811.319251:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1958:1958:0527/231811.319602:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1958:1958:0527/231811.319897:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1958:1958:0527/231811.320037:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1958:1958:0527/231811.320210:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1958:1958:0527/231811.320380:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1958:1958:0527/231811.320717:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1958:1958:0527/231811.320920:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1958:1958:0527/231811.321180:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1958:1958:0527/231811.321389:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1958:1958:0527/231811.321726:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1958:1958:0527/231811.321869:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1958:1958:0527/231811.322108:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1958:1958:0527/231811.322237:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1958:1958:0527/231811.322415:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1958:1958:0527/231811.322615:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1685:1933:0527/231812.029796:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1685:1937:0527/231812.343462:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1685:1937:0527/231812.343614:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1685:1685:0527/231813.477905:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1685:1948:0527/231813.478684:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1685:1685:0527/231813.674328:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1685:1933:0527/231813.675762:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1685:1685:0527/231813.720059:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1685:1935:0527/231813.720548:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1685:1685:0527/231813.749184:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1685:1934:0527/231813.771654:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1685:1685:0527/231813.775095:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1958:1958:0527/231816.190374:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[1958:1958:0527/231817.427963:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+[1684:1939:0527/232133.164050:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1939:0527/232133.185669:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1939:0527/232133.185769:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1939:0527/232133.185824:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1939:0527/232133.185864:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1939:0527/232134.751392:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1939:0527/232134.751527:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1963:1963:0527/232134.931172:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1963:1963:0527/232134.955780:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1963:1963:0527/232134.956114:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1963:1963:0527/232134.956213:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1963:1963:0527/232134.956343:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1963:1963:0527/232134.956422:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1963:1963:0527/232134.956539:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1963:1963:0527/232134.956613:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1963:1963:0527/232134.956745:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1963:1963:0527/232134.956824:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1963:1963:0527/232134.956941:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1963:1963:0527/232134.957015:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1963:1963:0527/232134.957162:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1963:1963:0527/232134.957232:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1963:1963:0527/232134.957344:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1963:1963:0527/232134.957415:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1963:1963:0527/232134.958576:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1963:1963:0527/232134.958689:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1963:1963:0527/232134.958823:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1963:1963:0527/232134.958892:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1963:1963:0527/232134.959039:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1963:1963:0527/232134.959118:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1963:1963:0527/232134.959243:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1963:1963:0527/232134.959312:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1963:1963:0527/232134.959439:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1963:1963:0527/232134.959509:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1963:1963:0527/232134.959618:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1963:1963:0527/232134.959696:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1963:1963:0527/232134.959805:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1963:1963:0527/232134.959873:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1963:1963:0527/232134.959983:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1963:1963:0527/232134.960050:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1684:1935:0527/232135.504234:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1939:0527/232135.655891:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1939:0527/232135.655982:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1684:0527/232136.361025:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1684:1950:0527/232136.361315:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1684:0527/232136.535334:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1684:1936:0527/232136.535785:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1684:0527/232136.576862:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1684:1936:0527/232136.578404:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1684:0527/232136.622268:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1684:1936:0527/232136.622499:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1684:0527/232136.650394:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1963:1963:0527/232138.033521:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[1963:1963:0527/232141.083179:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 4: Invalid argument
+[1792:1937:0528/171513.084272:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1792:1937:0528/171513.090375:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1792:1937:0528/171513.090495:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1792:1937:0528/171513.090571:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1792:1937:0528/171513.090625:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1792:1937:0528/171514.782127:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1792:1937:0528/171514.782239:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[2112:2112:0528/171514.923618:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2112:2112:0528/171514.939923:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2112:2112:0528/171514.940273:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2112:2112:0528/171514.940378:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2112:2112:0528/171514.940553:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2112:2112:0528/171514.940645:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2112:2112:0528/171514.940779:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2112:2112:0528/171514.940867:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2112:2112:0528/171514.941000:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2112:2112:0528/171514.941107:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2112:2112:0528/171514.941244:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2112:2112:0528/171514.941331:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2112:2112:0528/171514.941462:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2112:2112:0528/171514.941550:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2112:2112:0528/171514.941708:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2112:2112:0528/171514.941842:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2112:2112:0528/171514.943219:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2112:2112:0528/171514.943437:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2112:2112:0528/171514.943593:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2112:2112:0528/171514.943682:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2112:2112:0528/171514.943815:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2112:2112:0528/171514.943939:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2112:2112:0528/171514.944099:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2112:2112:0528/171514.944213:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2112:2112:0528/171514.944353:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2112:2112:0528/171514.944441:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2112:2112:0528/171514.944577:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2112:2112:0528/171514.944669:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2112:2112:0528/171514.944846:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2112:2112:0528/171514.944953:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2112:2112:0528/171514.945114:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2112:2112:0528/171514.945237:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1792:1934:0528/171515.548448:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1792:1937:0528/171515.686028:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1792:1937:0528/171515.686151:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1792:1792:0528/171516.390261:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1792:2049:0528/171516.390744:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1792:1792:0528/171516.515429:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1792:1935:0528/171516.540113:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1792:1792:0528/171516.561032:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1792:1935:0528/171516.561352:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1792:1792:0528/171516.576168:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1792:1935:0528/171516.579357:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1792:1792:0528/171516.603862:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[2112:2112:0528/171518.041831:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[1690:1935:0528/175413.655428:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1690:1935:0528/175413.687511:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1690:1935:0528/175413.687590:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1690:1935:0528/175413.687636:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1690:1935:0528/175413.687673:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1690:1935:0528/175417.072084:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1690:1935:0528/175417.072194:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1951:1951:0528/175417.072574:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1951:1951:0528/175417.088199:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1951:1951:0528/175417.088561:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1951:1951:0528/175417.088661:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1951:1951:0528/175417.088835:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1951:1951:0528/175417.088931:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1951:1951:0528/175417.089066:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1951:1951:0528/175417.089162:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1951:1951:0528/175417.089301:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1951:1951:0528/175417.089390:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1951:1951:0528/175417.089538:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1951:1951:0528/175417.089639:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1951:1951:0528/175417.089778:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1951:1951:0528/175417.089866:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1951:1951:0528/175417.089997:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1951:1951:0528/175417.090141:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1951:1951:0528/175417.091381:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1951:1951:0528/175417.091559:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1951:1951:0528/175417.091712:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1951:1951:0528/175417.091806:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1951:1951:0528/175417.091935:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1951:1951:0528/175417.092084:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1951:1951:0528/175417.092220:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1951:1951:0528/175417.092305:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1951:1951:0528/175417.092428:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1951:1951:0528/175417.092510:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1951:1951:0528/175417.092638:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1951:1951:0528/175417.092716:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1951:1951:0528/175417.092869:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1951:1951:0528/175417.092973:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1951:1951:0528/175417.093485:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1951:1951:0528/175417.093604:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1690:1931:0528/175417.933768:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1690:1935:0528/175418.077374:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1690:1935:0528/175418.077515:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1690:1690:0528/175418.912786:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1690:1947:0528/175418.914434:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1690:1690:0528/175419.102600:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1690:1931:0528/175419.102921:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1690:1690:0528/175419.139077:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1690:1932:0528/175419.139739:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1690:1690:0528/175419.159370:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1690:1931:0528/175419.159870:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1690:1690:0528/175419.185485:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1951:1951:0528/175420.472781:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[1951:1951:0528/175422.367543:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+[1692:1937:0528/175705.567089:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1692:1937:0528/175705.594147:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1692:1937:0528/175705.594244:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1692:1937:0528/175705.594279:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1692:1937:0528/175705.594339:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1692:1937:0528/175707.150580:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1692:1937:0528/175707.150699:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1994:1994:0528/175707.353647:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1994:1994:0528/175707.360009:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1994:1994:0528/175707.360333:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1994:1994:0528/175707.360456:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1994:1994:0528/175707.360666:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1994:1994:0528/175707.360789:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1994:1994:0528/175707.360963:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1994:1994:0528/175707.361071:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1994:1994:0528/175707.361271:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1994:1994:0528/175707.361421:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1994:1994:0528/175707.361649:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1994:1994:0528/175707.361778:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1994:1994:0528/175707.361956:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1994:1994:0528/175707.362074:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1994:1994:0528/175707.362330:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1994:1994:0528/175707.362534:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1994:1994:0528/175707.363927:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1994:1994:0528/175707.364107:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1994:1994:0528/175707.364313:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1994:1994:0528/175707.364813:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1994:1994:0528/175707.364995:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1994:1994:0528/175707.365078:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1994:1994:0528/175707.365210:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1994:1994:0528/175707.365291:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1994:1994:0528/175707.365413:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1994:1994:0528/175707.365485:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1994:1994:0528/175707.365603:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1994:1994:0528/175707.365703:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1994:1994:0528/175707.365819:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1994:1994:0528/175707.365891:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1994:1994:0528/175707.366006:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1994:1994:0528/175707.366076:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1692:1933:0528/175707.876736:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1692:1937:0528/175708.028923:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1692:1937:0528/175708.029015:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1692:1692:0528/175708.739792:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1692:1935:0528/175708.740704:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1692:1692:0528/175708.897881:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1692:1933:0528/175708.899053:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1692:1692:0528/175708.962159:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1692:1933:0528/175708.962486:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1692:1692:0528/175708.978888:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1692:1935:0528/175708.980307:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1692:1692:0528/175709.029933:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1994:1994:0528/175710.443123:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[1683:1939:0529/194653.466243:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1683:1939:0529/194653.495491:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1683:1939:0529/194653.495559:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1683:1939:0529/194653.495598:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1683:1939:0529/194653.495632:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1683:1939:0529/194656.415662:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1683:1939:0529/194656.415794:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1955:1955:0529/194656.513448:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1955:1955:0529/194656.542128:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1955:1955:0529/194656.542535:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1955:1955:0529/194656.542661:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1955:1955:0529/194656.542814:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1955:1955:0529/194656.542912:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1955:1955:0529/194656.543095:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1955:1955:0529/194656.543245:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1955:1955:0529/194656.543398:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1955:1955:0529/194656.543505:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1955:1955:0529/194656.543651:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1955:1955:0529/194656.543754:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1955:1955:0529/194656.543912:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1955:1955:0529/194656.544010:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1955:1955:0529/194656.544165:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1955:1955:0529/194656.544272:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1955:1955:0529/194656.545607:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1955:1955:0529/194656.545796:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1955:1955:0529/194656.545940:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1955:1955:0529/194656.546088:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1955:1955:0529/194656.546219:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1955:1955:0529/194656.546333:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1955:1955:0529/194656.546462:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1955:1955:0529/194656.546547:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1955:1955:0529/194656.546668:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1955:1955:0529/194656.546751:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1955:1955:0529/194656.546881:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1955:1955:0529/194656.546959:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1955:1955:0529/194656.547098:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1955:1955:0529/194656.547181:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1955:1955:0529/194656.547314:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[1955:1955:0529/194656.547397:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1683:1935:0529/194657.306849:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1683:1939:0529/194657.451577:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1683:1939:0529/194657.451680:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1683:1683:0529/194658.331453:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1683:1949:0529/194658.331781:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1683:1683:0529/194658.493462:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1683:1936:0529/194658.493823:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1683:1683:0529/194658.529323:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1683:1949:0529/194658.529694:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1683:1683:0529/194658.556020:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1683:1935:0529/194658.556251:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1683:1683:0529/194658.578624:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1955:1955:0529/194659.976236:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[1955:1955:0529/194702.150665:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+[1683:1683:0529/202418.178712:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[1683:1683:0529/202418.180328:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+Fontconfig error: Cannot load default config file: No such file: (null)
+close object 1: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 2: Invalid argument
+close object 3: Invalid argument
+close object 4: Invalid argument
+[1684:1941:0529/202630.889283:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1941:0529/202630.901795:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1941:0529/202630.901867:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1941:0529/202630.901908:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1941:0529/202630.901944:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1941:0529/202632.693020:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1941:0529/202632.693130:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[2075:2075:0529/202632.862468:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2075:2075:0529/202632.869347:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2075:2075:0529/202632.869657:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2075:2075:0529/202632.869742:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2075:2075:0529/202632.869881:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2075:2075:0529/202632.869954:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2075:2075:0529/202632.870070:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2075:2075:0529/202632.870141:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2075:2075:0529/202632.870259:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2075:2075:0529/202632.870361:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2075:2075:0529/202632.870479:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2075:2075:0529/202632.870550:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2075:2075:0529/202632.870662:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2075:2075:0529/202632.870734:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2075:2075:0529/202632.870857:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2075:2075:0529/202632.870927:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2075:2075:0529/202632.872187:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2075:2075:0529/202632.872339:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2075:2075:0529/202632.872535:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2075:2075:0529/202632.872620:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2075:2075:0529/202632.872780:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2075:2075:0529/202632.872874:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2075:2075:0529/202632.872998:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2075:2075:0529/202632.873078:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2075:2075:0529/202632.873187:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2075:2075:0529/202632.873297:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2075:2075:0529/202632.873423:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2075:2075:0529/202632.873494:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2075:2075:0529/202632.873602:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2075:2075:0529/202632.873672:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[2075:2075:0529/202632.873780:ERROR:gbm_wrapper.cc(79)] Failed to get fd for plane.: No such file or directory (2)
+[2075:2075:0529/202632.873848:ERROR:gbm_wrapper.cc(262)] Failed to export buffer to dma_buf: No such file or directory (2)
+[1684:1937:0529/202633.442808:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1941:0529/202633.595838:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1941:0529/202633.595978:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1684:0609/090823.807123:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1684:2036:0609/090823.807599:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1684:0609/090824.014643:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1684:2034:0609/090824.015168:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1684:0609/090824.063828:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1684:1939:0609/090824.064357:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1684:0609/090824.077704:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[1684:1937:0609/090824.077934:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1684:1684:0609/090824.169917:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[2075:2075:0609/090825.714070:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[2075:2075:0609/090828.336618:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+[2075:2075:0609/090830.055381:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!

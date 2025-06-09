@@ -9,7 +9,8 @@ module.exports = function (gpio, callback) {
     button.glitchFilter(10000);
 
     button.on('alert', (level, tick) => {
-        if (level === 1) {
+        console.log("alert button", level)
+        if (level === 0) {
             console.log("button pressed")
             callback()
         }

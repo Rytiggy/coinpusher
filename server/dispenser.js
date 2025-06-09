@@ -52,7 +52,6 @@ module.exports = function (in1Gpio, in2Gpio, enableGpio, breakbeamGpio, soundFil
       else
         jamDetection.startMotor()
 
-
     },
     stop,
     reverse
